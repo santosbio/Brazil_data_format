@@ -8,7 +8,7 @@ Para utilizar essa classe, basta incluí-la em seu arquivo:
 
 ```php
 $data = '2014-01-01 23:59:59';
-get_data($data); //retorna a data com o ano abreviado. Ex.: 01/01/14
-get_data_full($data); //retorna a data com o ano completo. Ex.: 01/01/2014
-get_hora($data); //retorna a hora, no fomrato 23:59:59.
+echo get_data($data); //retorna a data com o ano abreviado. Ex.: 01/01/14
+echo get_data_full($data); //retorna a data com o ano completo. Ex.: 01/01/2014
+echo get_hora($data); //retorna a hora, no fomrato 23:59:59.
 ```

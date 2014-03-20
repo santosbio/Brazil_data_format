@@ -41,15 +41,15 @@ class DataForm
 	}
 
 	public function get_data(){
-		echo $this->data;
+		return $this->data;
 	}
 
 	public function get_data_full(){
-		echo $this->dataFull;
+		return $this->dataFull;
 	}
 
 	public function get_hora(){
-		echo $this->data;
+		return $this->data;
 	}
 
 	
