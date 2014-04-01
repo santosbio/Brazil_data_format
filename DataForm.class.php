@@ -49,7 +49,7 @@ class DataForm
 	}
 
 	public function get_hora(){
-		return $this->data;
+		return $this->hora;
 	}
 
 	
